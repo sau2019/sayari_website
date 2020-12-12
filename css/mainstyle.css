@@ -1,0 +1,391 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background-color: #E6F0EB;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.header-section {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    letter-spacing: 0.2em;
+    font-family: fantasy;
+}
+
+.foru {
+    color: chocolate;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+}
+
+.tagname {
+    color: steelblue;
+    padding: 2px;
+    position: relative;
+    z-index: auto;
+}
+
+.nav-area {
+    padding: 10px;
+    display: block;
+}
+
+.nav-ul {
+    padding: 5px;
+}
+
+.nav-a {
+    text-decoration: none;
+    padding: 5px;
+    position: relative;
+    background-color: #F0F7F3;
+    border-radius: 5px;
+    color: dodgerblue;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.2em;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.nav-a:hover {
+    box-shadow: 0px 0px 2px grey, 0px 0px 1px grey;
+    color: steelblue;
+    background-color: #F8FCFA;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.url-tag {
+    color: grey;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.2em;
+    padding: 10px;
+    background-color: #F0F7F3;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sub-title {
+    color: grey;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+}
+
+#tag-active {
+    text-decoration: none;
+    color: steelblue;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.border-round {
+    border-radius: 5px;
+}
+
+.body-section {
+    padding: 20px;
+    width: 100%;
+}
+
+.body-banner {
+    background: url('../images/nature.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.body-subtitle {
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.li-tag {
+    padding: 2px;
+    color: white;
+    font-size: 16px;
+    width: 80%;
+    text-align: justify;
+    cursor: pointer;
+}
+
+.li-tag-link {
+    color: white;
+}
+
+.li-tag:hover {
+    text-indent: 5px;
+    transition: all 0.5s ease-out;
+    font-weight: bold;
+}
+
+.li-tag-link:hover {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px #568FBE;
+}
+
+.ul-tag {
+    list-style-type: none;
+}
+
+.shayari-section {
+    padding: 10px;
+}
+
+.prefered-search {
+    background-color: azure;
+    padding: 10px;
+    width: 100%;
+    position: -webkit-sticky;
+    display: block;
+}
+
+.prefered-title {
+    font-size: 20px;
+    text-align: center;
+    color: #4682B4;
+    padding: 5px;
+    background-color: #DFFFFF;
+    font-weight: bold;
+}
+
+.prefered-link {
+    color: #676767;
+    padding: 5px;
+    font-weight: 800;
+    font-size: 16px;
+    text-overflow: clip;
+}
+
+.prefered-link:hover {
+    color: #4A4A4A;
+    text-decoration: none;
+}
+
+.prefered-ul {
+    margin-top: 5px;
+    align-content: flex-start;
+    text-align: justify;
+}
+
+.prefered-li {
+    padding: 2px;
+    list-style-type: square;
+}
+
+.shayari-area {
+    padding: 10px;
+}
+
+.shayari-title {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: center;
+    color: #D2691E;
+    font-weight: bold;
+}
+
+.shayari-image {
+    height: 90%;
+    width: 100%;
+    box-shadow: 1px 0px 0px grey, 0px 0px 1px grey;
+    opacity: 0.8;
+    border-radius: 5px 5px 0 0;
+}
+
+.shayari-image:hover {
+    opacity: 0.9;
+}
+
+.shayari-describe-box {
+    padding: 20px;
+    background-color: #F0F7F3;
+    border-radius: 5px;
+    border: 5px solid #E6F0EB;
+    box-shadow: 0px 0px 1px grey, 0px 0px 3px grey;
+}
+
+.shayari-describe {
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+}
+
+.footer-area {
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    background-color: steelblue;
+    border-top: 2px solid white;
+}
+
+.footer-title {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px grey;
+    font-weight: 800;
+}
+
+.footer-bglight {
+    background-color: #568FBE;
+}
+
+.advertise-theme {
+    width: 100%;
+    padding: 20px;
+}
+
+.advertise-image {
+    width: 100%;
+    height: 90%;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.pagination-ul {
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.pagination-li {
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: steelblue;
+}
+
+.pagination-li:hover {
+    border: 2px solid grey;
+    font-weight: bold;
+}
+
+.pagination-a:hover {
+    text-decoration: none;
+}
+
+
+/*IconBar left css */
+
+.icon-bar {
+    position: fixed;
+    display: -webkit-sticky;
+    top: 10%;
+    -webkit-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
+    transform: translateY(-10%);
+}
+
+.side-image {
+    width: 50px;
+    height: 50px;
+    background-color: #01AAD5;
+}
+
+.side-image:hover {
+    transition: all 0.3s ease-out;
+    width: 60px;
+    margin-left: 10px;
+}
+
+@media only screen and (min-width:600px) {
+    .icon-bar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .icon-bar {
+        display: block;
+    }
+}
+
+.swiper-container {
+    height: 100%;
+    width: 100%;
+}
+
+.swiper-slide {
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.footer-bottom-area {
+    background-color: #568FBE;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* 404 error page css goes here */
+
+.error-area {
+    padding: 100px;
+    background-color: #F0F7F3;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+
+.error-code {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 600;
+    position: relative;
+    transform: rotateX(360deg);
+    text-shadow: 5px 5px 5px black, 5px 5px 10px grey;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: dodgerblue;
+}
+
+.error-text {
+    font-size: 24px;
+    padding: 5px;
+    color: dodgerblue;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.error-desc {
+    color: grey;
+    font-weight: 600;
+    font-size: 16;
+    text-align: center;
+}
